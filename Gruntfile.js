@@ -34,7 +34,7 @@ module.exports = function (grunt) {
                 tasks: ['bowerInstall']
             },
             js: {
-                files: ['<%= config.app %>/scripts/**/*.js'],
+                files: ['<%= config.app %>/scripts/**/*.js', '!<%= config.app %>/scripts/data/**/*.js'],
                 tasks: ['jshint'],
                 options: {
                     livereload: true
@@ -133,7 +133,7 @@ module.exports = function (grunt) {
             all: [
                 'Gruntfile.js',
                 '<%= config.app %>/scripts/{,*/}*.js',
-                '!<%= config.app %>/scripts/vendor/*',
+                '!<%= config.app %>/scripts/data/*',
                 'test/spec/{,*/}*.js'
             ]
         },

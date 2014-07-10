@@ -23,4 +23,5 @@ app.controller('SeshController',['$scope','$location', function($scope,$location
     $scope.sessions = filtered;
     $location.url('/' + term);
   };
+  
 }]);
