@@ -53,6 +53,7 @@ function sessions(data) {
       dy: sd.format('dddd'),
       sd: sd.format('h:mm a'),
       dur: duration,
+      st: sd.valueOf(),
       t: session.sessionTitle,
       eid: session.eventTypeID,
       d: session.sessionDescription,

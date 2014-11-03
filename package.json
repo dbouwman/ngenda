@@ -27,7 +27,9 @@
     "load-grunt-tasks": "~0.4.0",
     "time-grunt": "~0.3.1",
     "jshint-stylish": "~0.1.5",
-    "moment": "~2.7.0"
+    "moment": "~2.7.0",
+    "grunt-gh-pages": "~0.9.1",
+    "grunt-open": "~0.2.3"
   },
   "engines": {
     "node": ">=0.10.0"
